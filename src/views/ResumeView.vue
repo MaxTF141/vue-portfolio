@@ -1,13 +1,15 @@
-<template lang="">
-    <section id="resume">
-        Resume Page 
-    </section>
+<template>
+    <ResumeVue />
 </template>
+
 <script>
+import ResumeVue from '@/components/ResumeVue.vue';
 export default {
-    
+    components: {
+        ResumeVue
+    }
 }
 </script>
-<style lang="">
+<style>
     
 </style>

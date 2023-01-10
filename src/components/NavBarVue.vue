@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-dark" :class="hover? 'navBar': 'NavBar'">
+  <nav class="" :class="hover? 'navBar': 'NavBar'">
     <i class="bi bi-list menu-icon" @click="menuBar"></i>
     <div>
       <ul class="nav-items" v-if="hover">
@@ -52,18 +52,18 @@ export default {
   left: 0;
   overflow-x: hidden;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding-left: 5px;
+  padding-left: 12px;
 }
  .navBar{
   height: 100%;
-  width: 150px;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding-left: 5px;
+  padding-left: 12px;
 }
 .nav-items {
   display: flex;
@@ -74,10 +74,12 @@ export default {
   color: white;
   letter-spacing: 1px;
 }
+nav {
+  background-color: #0c3047;
+}
 i{
   font-size: 2rem;
   color: white;
-  text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #02e9f4, 0 0 60px #02e9f4, 0 0 70px #02e9f4, 0 0 90px #02e9f4;
 }
 /* .menu-icon {
   padding-bottom: 100px;
