@@ -1,13 +1,15 @@
-<template lang="">
-    <section id="testimonials">
-        Testimonials Page
-    </section>
+<template>
+    <TestimonialsVue />
 </template>
 <script>
+import TestimonialsVue from '@/components/TestimonialsVue.vue';
+
 export default {
-    
+    components: {
+         TestimonialsVue 
+        }
 }
 </script>
-<style lang="">
+<style>
     
 </style>

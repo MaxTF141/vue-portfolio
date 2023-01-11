@@ -45,14 +45,14 @@ export default {
 }
  .NavBar{
   height: 100%;
-  width: 70px;
+  width: 50px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding-left: 12px;
+  padding-left: 5px;
 }
  .navBar{
   height: 100%;
@@ -63,7 +63,7 @@ export default {
   left: 0;
   overflow-x: hidden;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding-left: 12px;
+  padding-left: 5px;
 }
 .nav-items {
   display: flex;

@@ -26,7 +26,7 @@
     background-color: #0c3047;
     padding-top: 5px;
     min-height: 100vh;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 #about img {
     border-radius: 5%;

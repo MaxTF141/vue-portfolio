@@ -1,7 +1,7 @@
 <template>
   <section id="landing">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row pt-5">
         <div class="col-12 col-lg-6 d-flex d-lg-flex mt-lg-5 justify-content-center">
           <img class="img-fluid showcase" src="../assets/undraw_code_thinking_re_gka2.svg" alt="laptop-coding"
             loading="lazy">
@@ -35,7 +35,7 @@ export default {
     background-color: #0c3047;
     padding-top: 20px;
     min-height: 100vh;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 i{

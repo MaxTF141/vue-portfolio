@@ -42,7 +42,7 @@
                 <div class="card-body">
                     <h5 class="display-5 card-title text-light">DE JAGERS UITRUSTERS</h5>
                     <p class="lead card-text text-light">De Jagers is a retail store. I worked there for about two years
-                        as a temporary worker since I finished high school.></p>
+                        as a temporary worker since I finished high school.</p>
                     <h6 class="card-subtitle mb-2 text-dark">MAR 2020 - PRESENT</h6>
                 </div>
             </div>
@@ -86,14 +86,42 @@
 </template>
 <script>
 export default {
-
+    data(){
+        return{
+           education: [
+            {
+                schoolName: 'KUILS RIVER TECHNICAL HIGH SCHOOL',
+                description: 'I graduated from high school with a diploma.',
+                timePeriod: '2015 - 2019'
+            },
+            {
+                schoolName: 'iCollege (Bellville Campus)',
+                description: 'I attended this college after I took a gap year after school. I studied IT Tech Support NQF4 during that year.',
+                timePeriod: 'FEB - DEC 2021'
+            },
+            {
+                schoolName: 'LIFE CHOICES CODING ACADEMY',
+                description: "So far it's been a great experience here at Life Choices. I began to love coding more and more. And I have learnt a lot and It's just not coding.I love how they implement everything that you'll need after you done with the Course",
+                timePeriod: 'SEP 2022 - PRESENT'
+            },
+           ],
+           workExperience: [
+            {
+                companyName:'DE JAGERS UITRUSTERS',
+                description:'De Jagers is a retail store. I worked there for about two years as a temporary worker since I finished high school.',
+                timePeriod:'MAR 2020 - DEC 2022'
+            }
+           ]
+        }
+    }
 }
 </script>
 <style>
 #resume {
     background-color: #0c3047;
     padding-top: 20px;
-    min-height: 95vh;
+    min-height: 100vh;
+    margin-left: 50px;
 }
 
 #resume .card {
@@ -101,10 +129,10 @@ export default {
 }
 
 #skills {
-    background-color: var(--primaryColor);
+    background-color: #0c3047;
     padding-top: 20px;
     min-height: 40vh;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 #skills h6 {
     color: white;
