@@ -5,43 +5,10 @@
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="container-fluid">
-                        <div class="carousel-item active" data-bs-interval="1000000"
-                            v-for="testimonies in testimonialsActiveCarousel" :key="testimonies.id">
-
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card" style="width: 20rem; height: fit-content;">
-                                        <div class="card-body">
-                                            <i class="bi bi-quote text-center"></i>
-                                            <p class="testimony text-center">{{ testimonies.testimony }}</p>
-                                            <div class="content">
-                                                <img class="image mx-auto" :src="testimonies.image">
-                                                <h4 class="text-center">{{ testimonies.personName }}</h4>
-                                                <h5 class="text-muted text-center">{{ testimonies.relation }}</h5>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item" data-bs-interval="1000000" v-for="testimonies in testimonials"
+                        <div class="carousel-item active" data-bs-interval="1000000" v-for="testimonies in testimonialsActiveCarousel"
                         :key="testimonies.id">
-                        <!-- <div class="cards d-flex flex-column mx-auto" style="width:18rem;">
-                            <div class="grid">
-                                <i class="bi bi-quote text-center"></i>
-                                <p class="testimony text-center">{{ testimonies.testimony }}</p>
-                                <div class="content">
-                                    <img class="image mx-auto" :src="testimonies.image">
-                                    <h4 class="text-center">{{ testimonies.personName }}</h4>
-                                    <h5 class="text-muted text-center">{{ testimonies.relation }}</h5>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="container-fluid text-center">
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-12 col-lg-6 my-3 d-flex justify-content-around g-3 pb-4">
                                     <div class="card" style="width: 30rem; height: fit-content;">
                                         <div class="card-body">
@@ -57,7 +24,27 @@
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000000" v-for="testimonies in testimonials"
+                        :key="testimonies.id">
+                        <div class="container-fluid text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-6 my-3 d-flex justify-content-around g-3 pb-4">
+                                    <div class="card" style="width: 30rem; height: fit-content;">
+                                        <div class="card-body">
+                                            <i class="bi bi-quote text-center"></i>
+                                            <p class="testimony text-center">{{ testimonies.testimony }}</p>
+                                            <div class="content">
+                                                <img class="image mx-auto" :src="testimonies.image">
+                                                <h4 class="text-center">{{ testimonies.personName }}</h4>
+                                                <h5 class="text-muted text-center">{{ testimonies.relation }}</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"

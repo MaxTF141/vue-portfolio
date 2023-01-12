@@ -1,5 +1,5 @@
 <template>
-  <section id="landing">
+  <section id="landing"  @click="minimizeNavbar">
     <div class="container-fluid">
       <div class="row pt-5">
         <div class="col-12 col-lg-6 d-flex d-lg-flex mt-lg-5 justify-content-center">
@@ -27,6 +27,11 @@
 </template>
 <script>
 export default {
+    methods: {
+      minimizeNavbar(){
+        this.$emit('minimize')
+      }
+    }
 
 }
 </script >

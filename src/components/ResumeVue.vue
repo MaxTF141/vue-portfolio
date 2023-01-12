@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <a class="text-decoration-none pb-4" href="../assets/documents/CV Maxwill Isaacs.pdf"><button type="button"
+        <a class="text-decoration-none pb-4" href="/files"><button type="button"
                 class="btn btn-success btn-lg d-block mx-auto">Download My CV</button></a>
     </section>
     <section id="skills">

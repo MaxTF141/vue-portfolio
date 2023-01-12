@@ -1,6 +1,8 @@
 <template>
   <NavBarVue />
-  <router-view/>
+  <router-view>
+      
+  </router-view>
   <FooterVue />
 </template>
 
@@ -11,7 +13,7 @@ import NavBarVue from './components/NavBarVue.vue';
     components : {
       NavBarVue,
       FooterVue
-    }
+    },
   }
 </script>
 
