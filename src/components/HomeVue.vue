@@ -34,8 +34,9 @@ export default {
 #landing {
     background-color: #0c3047;
     padding-top: 20px;
-    min-height: 100vh;
+    min-height: 93vh;
     margin-left: 50px;
+    overflow-x: hidden;
 }
 
 i{
