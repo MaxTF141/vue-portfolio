@@ -3,20 +3,20 @@
         <h5 class="display-5 text-success text-center">PROJECTS</h5>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-12 mt-2 py-lg-5 py-0" v-for="project in projects" :key="project.id" >
-                    <div class="card mx-auto w-100">
+                <div class="col-lg-4 col-12 mt-2 py-lg-5 py-0 px-0" v-for="project in projects" :key="project.id" >
+                    <div class="card mx-auto w-75">
                         <img :src="project.image" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h4 class="card-text">{{ project.name }}</h4>
-                            <div class="icons d-flex gap-2">
+                            <div class="icons d-flex gap-4">
                                 <a :href="project.githubLink" target="blank"><i class="bi bi-github"></i></a>
                                 <a :href="project.netlifyLink" target="blank"><i class="bi bi-globe"></i></a>
                             </div>
                         </div>
                     </div>                    
                 </div>
-                <div class="col-lg-4 col-12 py-2 py-lg-5 py-5"  v-for="project in projects2" :key="project.id">
-                    <div class="card mx-auto w-100">
+                <div class="col-lg-4 col-12 py-2 py-lg-5 py-5 px-0"  v-for="project in projects2" :key="project.id">
+                    <div class="card mx-auto w-75">
                         <img :src="project.image" class="card-img-top" alt="...">
                         <div class="card-body d-flex flex-column justify-content-space-between">
                             <h4 class="card-text">{{ project.name }}</h4>
@@ -48,8 +48,8 @@ export default {
                     id: 2,
                     name: 'E-commerce CRUD system',
                     image: 'https://i.postimg.cc/26wQm028/e-commerce-crud.png',
-                    githubLink: 'https://github.com/MaxTF141/JSCalculator.git',
-                    netlifyLink: 'https://maxwill-jscalculator.netlify.app/'
+                    githubLink: 'https://github.com/MaxTF141/JS-EOMP.git',
+                    netlifyLink: 'https://cococoffee.netlify.app/'
                 },
                 {
                     id: 3,
@@ -76,10 +76,10 @@ export default {
                 },
                 {
                     id: 6,
-                    name: '',
-                    image: '',
-                    githubLink: '',
-                    netlifyLink: '',
+                    name: 'First E-commerce Exercise',
+                    image: 'https://i.postimg.cc/XJJJVgMx/Play-On-Google-Chrome-1-14-2023-1-43-14-PM.png',
+                    githubLink: 'https://github.com/MaxTF141/EcommerceExercise.git',
+                    netlifyLink: 'https://ecommerce-site-exercise.netlify.app/',
                 }
 
             ]
