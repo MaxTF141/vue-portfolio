@@ -1,5 +1,6 @@
 <template>
   <nav class="" :class="sideBar? 'maximizedNav': 'minimizedNav'" @minimize="minimizeNavbar">
+    <router-link to="/"><img  class="logo" src="../assets/logo.png" alt="logo"></router-link>
     <i class="bi bi-list menu-icon" @click="menuBar"></i>
     <div>
       <ul class="nav-items" v-if="sideBar">
@@ -82,13 +83,15 @@ export default {
 }
 nav {
   background-color: #0c3047;
+  padding-top: 10px;
 }
 i{
   font-size: 2rem;
   color: white;
 }
-/* .menu-icon {
-  padding-bottom: 100px;
-} */
-   
+.logo {
+  width: 40px;
+  display: block;
+}
+
 </style>

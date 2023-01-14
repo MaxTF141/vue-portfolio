@@ -1,8 +1,8 @@
 <template>
     <section id="testimonials">
         <h5 class="display-5 text-success text-center py-4">TESTIMONIALS</h5>
-        <div class="carousel mx-auto" id="carousel">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel mt-5 pt-5 mx-auto" id="carousel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="container-fluid">
                         <div class="carousel-item active" data-bs-interval="1000000"
@@ -170,4 +170,8 @@ h4 {
     border-radius: 50px;
     border: 3px solid #198754;
 }
+
+/* .carousel {
+    overflow: hidden;
+} */
 </style>

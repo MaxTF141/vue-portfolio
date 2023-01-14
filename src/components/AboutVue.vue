@@ -3,7 +3,7 @@
         <div class="container my-auto">
             <div class="row">
                 <h4 class="display-3 d-none d-lg-block text-center text-success">About Me</h4>
-                <div class="col-12 col-lg-5 order-1 order-lg-0 mt-lg-5">
+                <div class="col-12 col-lg-5 order-1 order-lg-0 mt-lg-5 pt-lg-5">
                     <p class="lead text-white">I'm from Kuils River, Cape Town and I was born and grew up in Wesbank. Since I was a little kid I always loved creating things. I love playing chess and Sudoku. </p>
                     <p class="lead text-white">I always loved playing around with computers. Love solving technical problems. It was always a goal of mine to build a career in the tech industry. I love coding and can't wait to create projects of my own.</p>
                     <div class="ps-lg-5 ">

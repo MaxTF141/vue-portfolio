@@ -1,7 +1,7 @@
 <template>
   <section id="landing"  @click="minimizeNavbar">
     <div class="container-fluid">
-      <div class="row pt-5">
+      <div class="row mt-5 pt-5">
         <div class="col-12 col-lg-6 d-flex d-lg-flex mt-lg-5 justify-content-center">
           <img class="img-fluid showcase" src="../assets/undraw_code_thinking_re_gka2.svg" alt="laptop-coding"
             loading="lazy">

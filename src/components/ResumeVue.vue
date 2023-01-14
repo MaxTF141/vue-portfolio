@@ -95,6 +95,9 @@ export default {
     color: white;
     padding-left: 10px;
 }
+/* h5 {
+    font-family: ;
+} */
 
 .timeline {
     position: relative;

@@ -2,7 +2,7 @@
     <section id="contact">
         <h5 class="display-5 text-center text-success py-4">CONTACT ME</h5>
         <div class="container-fluid my-auto">
-            <div class="row">
+            <div class="row mt-lg-5 mt-lg-5">
                 <div class="col-12 col-lg-6 ps-lg-5">
                     <h6 class="display-6 text-lg-start text-center text-success">GET IN TOUCH</h6>
                     <p class="lead text-lg-start text-center text-light w-lg-50 w-100 mx-auto ms-lg-1 pb-3">You can
